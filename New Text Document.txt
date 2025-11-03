@@ -1,0 +1,17 @@
+I’ve added a new project to my portfolio — realtime-chat, a small but functional real-time chat app.
+It’s simple, clean, and built to work smoothly without unnecessary complexity.
+
+What it does:
+• Sign up / log in with JWT authentication
+• Create and join channels (e.g., General, Random, Tech Talk)
+• Send and receive messages instantly via Socket.IO
+• Store message history in a database for persistence
+
+Tech stack:
+• Backend: Python, Flask (REST API), Flask-SocketIO, SQLAlchemy + SQLite, JWT auth
+• Frontend: React + Vite, Socket.IO client, Axios, responsive UI
+
+The goal was to practice building a complete app from backend to frontend, focus on clean code, and keep the UX straightforward.
+It’s not a “big launch” — more of a practical, working project that’s easy to run locally and nice to have in my portfolio.
+
+#Python #Flask #React #SocketIO #FullStack #PortfolioProject #WebDevelopment #ChatApp

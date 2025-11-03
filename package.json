@@ -1,0 +1,32 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "A real-time chat application built with React and Python Flask-SocketIO",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "python -m pip install -r backend/requirements.txt && npm --prefix frontend install",
+    "dev:backend": "python backend/app.py",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev": "npm run dev:backend & npm run dev:frontend",
+    "build": "npm --prefix frontend run build",
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "chat",
+    "realtime",
+    "websocket",
+    "react",
+    "python",
+    "flask",
+    "socketio"
+  ],
+  "author": "Valery Sokolov Morgenshteyn",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "python": ">=3.8.0"
+  }
+}
